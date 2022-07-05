@@ -53,7 +53,7 @@ class EffectRenderer {
         loader.setPath('./');
         loader.load('model.gltf', (gltf) => {
             const scene = gltf.scene;
-             scene.scale.set(1, 1, 1);
+             scene.scale.set(0.9, 0.9, 0.9);
             this.faceGroup.add(gltf.scene);
         });
     }
